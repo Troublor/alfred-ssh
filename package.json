@@ -1,12 +1,14 @@
 {
     "name": "@troubkit/alfred-ssh",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "main": "index.js",
     "license": "MIT",
     "author": "Aaron @Troublor",
-    "homepage": "https://github.com/Troublor/ssh-server",
+    "homepage": "https://github.com/Troublor/alfred-ssh",
+    "bugs": "https://github.com/Troublor/alfred-ssh",
     "scripts": {
         "build": "tsc",
+        "prepack": "npm run build",
         "postinstall": "alfy-init",
         "preuninstall": "alfy-cleanup"
     },
